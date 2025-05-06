@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAB1klEQVRYR+2X4VHDMAxGXyeAEWAD2ABGgA1gA2AC6AawAWwAG8AGMAJsABvIO7WnOHFiO3BS7o6/eu61kp4+S7KdCUcuxx3A3L0HLoCZ/a0qgLu/AUtgambfQ6A9AHffAEvgGngGtsB1gNgBm0rAZvYVvtUG4O7XwAvQj4ubAZKeCPEEPJrZR/S6CiDc/QjMI8p3wDYivxYAki6Bm8CYrKE/RABJ50Dr7m+RsQuwN7NWyidJJ8AiIK7M7KsTwN1PgXdJR977qsBVdVFJZ4CyoMAV5W9mlotaVEKtIKBU+wS4MLOvCSCc6Dy8YGafvQDu3kTtq+QTSQvgFEiNaGZmH0Gl5P8y2qDRkpmBuzfAOyAjvoaKSvZHkddhZq27p7qcA3Mz2+0DWAPXwIeZtVUBwlhvwFGUZGtmTRXXR/svwI2ZNeF+qnlVqIsDSTNJTdS+VvEMvJYMmdkOWLl7E3W/kLQ0s81eF+TRxPPhY/ymqihp6u7PQBPGUyf8NbPWPtwurYQ6r1kJ4xjHgJL0FY1qbGZpZ7wPmhp2KoOsthKWjLcXwOCymFoaS9dA5Z1wPICqP6Yj7ITFpaTt6SMSHupYSUc/lv8rAD8mR2FBP+aldQAAAABJRU5ErkJggg==">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom Font Awesome implementation and CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="avatar">
+                <i class="fas fa-robot"></i>
+            </div>
+            <div class="info">
+                <h2>NEP-Chat <span class="status-dot"></span></h2>
+            </div>
+        </header>
+        
+        <div class="chat-messages" id="response">
+            <div class="message bot">
+                <div class="message-content">
+                    Hello! I'm your chatbot assistant. How can I help you today?
+                </div>
+                <span class="timestamp">Now</span>
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <div class="input-container">
+                <input type="text" id="userQuery" placeholder="Type your message..." autocomplete="off">
+                <button id="sendButton">
+                    <i class="fas fa-paper-plane"></i>
+                    <div class="spinner"></div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

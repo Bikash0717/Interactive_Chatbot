@@ -1,0 +1,87 @@
+Starting ChatBotServer on port 18080...
+Initializing DSA knowledge base...
+Loaded DSA knowledge from dsa_knowledge.json
+DSA knowledge base initialized successfully!
+Loaded decision tree from file
+Graph initialized with basic patterns
+Initializing DSA knowledge base...
+Loaded DSA knowledge from dsa_knowledge.json
+DSA knowledge base initialized successfully!
+Loaded responses from file
+Successfully initialized all data structures
+(2025-03-08 08:01:03) [INFO    ] Crow/master server is running at http://0.0.0.0:18080 using 4 threads
+(2025-03-08 08:01:03) [INFO    ] Call `app.loglevel(crow::LogLevel::Warning)` to hide Info level logs.
+(2025-03-08 08:01:21) [INFO    ] Request: 127.0.0.1:51060 0x59721eb853c0 HTTP/1.1 GET /health
+(2025-03-08 08:01:21) [INFO    ] Response: 0x59721eb853c0 /health 200 1
+(2025-03-08 08:01:35) [INFO    ] Response: 0x73cec4000c30 /query 204 0
+(2025-03-08 08:01:35) [INFO    ] Request: 127.0.0.1:49186 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:01:35) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:01:42) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:01:42) [INFO    ] Request: 127.0.0.1:49202 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:01:42) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:01:49) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:01:49) [INFO    ] Request: 127.0.0.1:58280 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:01:49) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:01:55) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:01:55) [INFO    ] Request: 127.0.0.1:58990 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:01:55) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:01:59) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:01:59) [INFO    ] Request: 127.0.0.1:59008 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:01:59) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:02:18) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:02:18) [INFO    ] Request: 127.0.0.1:43746 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:02:18) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:02:50) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:02:50) [INFO    ] Request: 127.0.0.1:59092 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:02:50) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:02:57) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:02:57) [INFO    ] Request: 127.0.0.1:37804 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:02:57) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:03:53) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:03:53) [INFO    ] Request: 127.0.0.1:45868 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:03:53) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:05:19) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:05:20) [INFO    ] Request: 127.0.0.1:48958 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:05:20) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:05:30) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:05:30) [INFO    ] Request: 127.0.0.1:49396 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:05:30) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:05:37) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:05:37) [INFO    ] Request: 127.0.0.1:59262 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:05:37) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:05:52) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:05:52) [INFO    ] Request: 127.0.0.1:35374 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:05:52) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:06:11) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:06:11) [INFO    ] Request: 127.0.0.1:47068 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:06:11) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:11:36) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:11:36) [INFO    ] Request: 127.0.0.1:42694 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:11:36) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:14:29) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:14:29) [INFO    ] Request: 127.0.0.1:60888 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:14:29) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:21:35) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:21:35) [INFO    ] Request: 127.0.0.1:34954 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:21:35) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:21:45) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:21:45) [INFO    ] Request: 127.0.0.1:35744 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:21:45) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:22:03) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:22:03) [INFO    ] Request: 127.0.0.1:45476 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:22:03) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:22:18) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:22:18) [INFO    ] Request: 127.0.0.1:36210 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:22:18) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:27:31) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:27:31) [INFO    ] Request: 127.0.0.1:60692 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:27:31) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:27:44) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:27:44) [INFO    ] Request: 127.0.0.1:33370 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:27:44) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:28:22) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:28:22) [INFO    ] Request: 127.0.0.1:54718 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:28:22) [INFO    ] Response: 0x73cec4002270 /query 200 1
+(2025-03-08 08:34:37) [INFO    ] Response: 0x73cec4003800 /query 204 0
+(2025-03-08 08:34:37) [INFO    ] Request: 127.0.0.1:38288 0x73cec4002270 HTTP/1.1 POST /query
+(2025-03-08 08:34:37) [INFO    ] Response: 0x73cec4002270 /query 200 1

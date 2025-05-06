@@ -1,0 +1,66 @@
+Server running on port 5502
+Raw output: Processing query from: /home/manish/Documents/Projects/DSAProjectFinal/temp_query.json
+Initializing DSA knowledge base...
+Loaded DSA knowledge from dsa_knowledge.json
+DSA knowledge base initialized successfully!
+Loaded decision tree from file
+Graph initialized with basic patterns
+Initializing DSA knowledge base...
+Loaded DSA knowledge from dsa_knowledge.json
+DSA knowledge base initialized successfully!
+Loaded responses from file
+Successfully initialized all data structures
+{"decision_tree_status":true,"graph_status":true,"hash_table_status":true,"status":"healthy"}
+
+Raw output: Processing query from: /home/manish/Documents/Projects/DSAProjectFinal/temp_query.json
+Initializing DSA knowledge base...
+Loaded DSA knowledge from dsa_knowledge.json
+DSA knowledge base initialized successfully!
+Loaded decision tree from file
+Graph initialized with basic patterns
+Initializing DSA knowledge base...
+Loaded DSA knowledge from dsa_knowledge.json
+DSA knowledge base initialized successfully!
+Loaded responses from file
+Successfully initialized all data structures
+{"decision_tree_response":"Question: Is this a DSA related query?\nAnswer (Left): Forwarding to DSA knowledge base\nQuestion: Is this a general chat query?\nAnswer (Left): Forwarding to general chat handler\n","graph_analysis":"Found conversational patterns: 'hello' (1 occurrences)","hash_table_result":"Hello! I'm your DSA ChatBot. How can I help you with Data Structures and Algorithms today?","query_received":"hello"}
+
+Raw output: Processing query from: /home/manish/Documents/Projects/DSAProjectFinal/temp_query.json
+Initializing DSA knowledge base...
+Loaded DSA knowledge from dsa_knowledge.json
+DSA knowledge base initialized successfully!
+Loaded decision tree from file
+Graph initialized with basic patterns
+Initializing DSA knowledge base...
+Loaded DSA knowledge from dsa_knowledge.json
+DSA knowledge base initialized successfully!
+Loaded responses from file
+Successfully initialized all data structures
+{"decision_tree_response":"Question: Is this a DSA related query?\nAnswer (Left): Forwarding to DSA knowledge base\nQuestion: Is this a general chat query?\nAnswer (Left): Forwarding to general chat handler\n","graph_analysis":"Found DSA-related patterns: 'array' (1 occurrences)","hash_table_result":"An array is a collection of items of the same data type, stored in contiguous memory locations.its very cool.","query_received":"array"}
+
+Raw output: Processing query from: /home/manish/Documents/Projects/DSAProjectFinal/temp_query.json
+Initializing DSA knowledge base...
+Loaded DSA knowledge from dsa_knowledge.json
+DSA knowledge base initialized successfully!
+Loaded decision tree from file
+Graph initialized with basic patterns
+Initializing DSA knowledge base...
+Loaded DSA knowledge from dsa_knowledge.json
+DSA knowledge base initialized successfully!
+Loaded responses from file
+Successfully initialized all data structures
+{"decision_tree_response":"Question: Is this a DSA related query?\nAnswer (Left): Forwarding to DSA knowledge base\nQuestion: Is this a general chat query?\nAnswer (Left): Forwarding to general chat handler\n","graph_analysis":"Found DSA-related patterns: 'array' (1 occurrences), 'stack' (1 occurrences)","hash_table_result":"Comparison between array and stack:\n\n1. array:\nAn array is a collection of items of the same data type, stored in contiguous memory locations.its very cool.\n\n2. stack:\nA stack is a LIFO (Last-In, First-Out) data structure, often visualized as a stack of plates.\n\nKey Differences:\n- array: An array is a collection of items of the same data type, stored in contiguous memory locations.\n- stack: A stack is a LIFO (Last-In, First-Out) data structure, often visualized as a stack of plates.\n","query_received":"array vs stack"}
+
+Raw output: Processing query from: /home/manish/Documents/Projects/DSAProjectFinal/temp_query.json
+Initializing DSA knowledge base...
+Loaded DSA knowledge from dsa_knowledge.json
+DSA knowledge base initialized successfully!
+Loaded decision tree from file
+Graph initialized with basic patterns
+Initializing DSA knowledge base...
+Loaded DSA knowledge from dsa_knowledge.json
+DSA knowledge base initialized successfully!
+Loaded responses from file
+Successfully initialized all data structures
+{"decision_tree_response":"Question: Is this a DSA related query?\nAnswer (Left): Forwarding to DSA knowledge base\nQuestion: Is this a general chat query?\nAnswer (Left): Forwarding to general chat handler\n","graph_analysis":"Found DSA-related patterns: 'bfs' (1 occurrences), 'dfs' (1 occurrences)","hash_table_result":"Comparison between bfs and dfs:\n\n1. breadth first search:\nBreadth-First Search (BFS) is a graph traversal algorithm that explores all vertices at the present depth before moving on to vertices at the next depth level. It uses a queue to keep track of nodes to visit next. Time complexity: O(V + E), where V is the number of vertices and E is the number of edges.\n\n2. depth first search:\nDepth-First Search (DFS) is a graph traversal algorithm that explores as far as possible along each branch before backtracking. It uses a stack (or recursion) to keep track of nodes to visit next. Time complexity: O(V + E), where V is the number of vertices and E is the number of edges.\n\nKey Differences:\n- breadth first search: Breadth-First Search (BFS) is a graph traversal algorithm that explores all vertices at the present depth before moving on to vertices at the next depth level.\n- depth first search: Depth-First Search (DFS) is a graph traversal algorithm that explores as far as possible along each branch before backtracking.\n","query_received":"bfs vs dfs"}
+

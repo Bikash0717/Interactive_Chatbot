@@ -1,0 +1,2 @@
+Server running at http://localhost:5500
+Proxying API requests to backend at http://localhost:18080

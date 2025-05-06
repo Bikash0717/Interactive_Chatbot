@@ -1,0 +1,13 @@
+/home/manish/Downloads/projectwithoutcrow/build/CMakeFiles/ChatBotServer.dir
+/home/manish/Downloads/projectwithoutcrow/build/CMakeFiles/edit_cache.dir
+/home/manish/Downloads/projectwithoutcrow/build/CMakeFiles/rebuild_cache.dir
+/home/manish/Downloads/projectwithoutcrow/build/CMakeFiles/list_install_components.dir
+/home/manish/Downloads/projectwithoutcrow/build/CMakeFiles/install.dir
+/home/manish/Downloads/projectwithoutcrow/build/CMakeFiles/install/local.dir
+/home/manish/Downloads/projectwithoutcrow/build/CMakeFiles/install/strip.dir
+/home/manish/Downloads/projectwithoutcrow/build/_deps/json-build/CMakeFiles/edit_cache.dir
+/home/manish/Downloads/projectwithoutcrow/build/_deps/json-build/CMakeFiles/rebuild_cache.dir
+/home/manish/Downloads/projectwithoutcrow/build/_deps/json-build/CMakeFiles/list_install_components.dir
+/home/manish/Downloads/projectwithoutcrow/build/_deps/json-build/CMakeFiles/install.dir
+/home/manish/Downloads/projectwithoutcrow/build/_deps/json-build/CMakeFiles/install/local.dir
+/home/manish/Downloads/projectwithoutcrow/build/_deps/json-build/CMakeFiles/install/strip.dir

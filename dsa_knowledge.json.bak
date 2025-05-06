@@ -1,0 +1,66 @@
+{
+  "data_structures": {
+    "array": "An array is a collection of elements stored at contiguous memory locations. Elements can be accessed using an index.",
+    "linked list": "A linked list is a linear data structure where elements are not stored at contiguous locations. Each element (node) contains data and a reference to the next node.",
+    "stack": "A stack is a linear data structure that follows the Last In First Out (LIFO) principle. Operations are performed at one end called the top.",
+    "queue": "A queue is a linear data structure that follows the First In First Out (FIFO) principle. Elements are added at the rear and removed from the front.",
+    "binary tree": "A binary tree is a hierarchical data structure where each node has at most two children, referred to as the left child and the right child.",
+    "hash table": "A hash table is a data structure that implements an associative array abstract data type, a structure that can map keys to values.",
+    "heap": "A heap is a specialized tree-based data structure that satisfies the heap property.",
+    "graph": "A graph is a non-linear data structure consisting of nodes (vertices) and edges that connect these nodes."
+  },
+  "algorithms": {
+    "bubble sort": "A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. Time complexity: O(n²).",
+    "quick sort": "A divide-and-conquer sorting algorithm that works by selecting a 'pivot' element and partitioning the array around the pivot. Average time complexity: O(n log n).",
+    "binary search": "A search algorithm that finds the position of a target value within a sorted array. Time complexity: O(log n).",
+    "breadth first search": "A graph traversal algorithm that explores all vertices at the present depth before moving on to vertices at the next depth level.",
+    "depth first search": "A graph traversal algorithm that explores as far as possible along each branch before backtracking.",
+    "dijkstra's algorithm": "An algorithm for finding the shortest paths between nodes in a graph."
+  },
+  "time_complexities": {
+    "array": {
+      "access": "O(1)",
+      "search": "O(n)",
+      "insertion": "O(n)",
+      "deletion": "O(n)"
+    },
+    "linked list": {
+      "access": "O(n)",
+      "search": "O(n)",
+      "insertion": "O(1)",
+      "deletion": "O(1)"
+    },
+    "stack": {
+      "access": "O(n)",
+      "search": "O(n)",
+      "push": "O(1)",
+      "pop": "O(1)"
+    },
+    "queue": {
+      "access": "O(n)",
+      "search": "O(n)",
+      "enqueue": "O(1)",
+      "dequeue": "O(1)"
+    },
+    "hash table": {
+      "access": "N/A",
+      "search": "O(1) average, O(n) worst",
+      "insertion": "O(1) average, O(n) worst",
+      "deletion": "O(1) average, O(n) worst"
+    }
+  },
+  "code_examples": {
+    "array": "// C++ example\nint arr[5] = {1, 2, 3, 4, 5};\nfor (int i = 0; i < 5; i++) {\n    cout << arr[i] << \" \";\n}",
+    "linked list": "// C++ example\nclass Node {\npublic:\n    int data;\n    Node* next;\n    Node(int val) : data(val), next(nullptr) {}\n};\n\nNode* head = new Node(1);\nhead->next = new Node(2);",
+    "stack": "// C++ example\n#include <stack>\nstd::stack<int> s;\ns.push(1);\ns.push(2);\nwhile (!s.empty()) {\n    cout << s.top() << \" \";\n    s.pop();\n}",
+    "quick sort": "// C++ Quick Sort\nvoid quickSort(int arr[], int low, int high) {\n    if (low < high) {\n        int pivot = partition(arr, low, high);\n        quickSort(arr, low, pivot - 1);\n        quickSort(arr, pivot + 1, high);\n    }\n}",
+    "binary search": "// C++ Binary Search\nint binarySearch(int arr[], int left, int right, int target) {\n    while (left <= right) {\n        int mid = left + (right - left) / 2;\n        if (arr[mid] == target) return mid;\n        if (arr[mid] < target) left = mid + 1;\n        else right = mid - 1;\n    }\n    return -1;\n}"
+  },
+  "keyword_mappings": {
+    "sorting": ["bubble sort", "quick sort", "merge sort", "heap sort"],
+    "searching": ["binary search", "linear search"],
+    "tree": ["binary tree", "avl tree", "binary search tree"],
+    "graph": ["depth first search", "breadth first search", "dijkstra's algorithm"],
+    "dynamic programming": ["fibonacci", "knapsack problem", "longest common subsequence"]
+  }
+}

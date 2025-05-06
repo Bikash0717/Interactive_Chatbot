@@ -1,0 +1,12 @@
+[
+    {
+        "question": "Is this a DSA related query?",
+        "left_answer": "Forwarding to DSA knowledge base",
+        "right_answer": "Forwarding to general chat handler"
+    },
+    {
+        "question": "Is this a general chat query?",
+        "left_answer": "Forwarding to general chat handler",
+        "right_answer": "Requesting clarification"
+    }
+]
